@@ -12,6 +12,6 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_ROOT_HOST=%
-      #- MYSQL_DATABASE=autos
+      #- MYSQL_DATABASE=dbname
     volumes:
       - mysql-8:/var/lib/mysql
