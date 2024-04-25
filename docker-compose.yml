@@ -10,4 +10,4 @@ services:
     volumes:
       - ./mysql-8:/var/lib/mysql
     ports:
-      - ${PORT:-127.0.0.1:3306}:3307
+      - ${PORT:-127.0.0.1:3306}:3306
